@@ -13,7 +13,7 @@ ContactsTool.errorPage = SC.Page.create(
   // needsDesigner: YES,
   retryWait: SC.View.design({
     layout: { top: 0, right: 0, bottom: 0, left: 0 },
-    
+
     childViews: [
       SC.ImageView.design({
         layout: { centerX: 0, centerY: 0, height: 48, width: 48 },
@@ -39,10 +39,10 @@ ContactsTool.errorPage = SC.Page.create(
       })
     ]
   }),
-  
+
   waitServerResponse: SC.View.design({
     layout: { top: 0, right: 0, bottom: 0, left: 0 },
-    
+
     childViews: [
       SC.ImageView.design({
         layout: { centerX: 0, centerY: 0, height: 48, width: 48 },
@@ -86,10 +86,10 @@ ContactsTool.errorPage = SC.Page.create(
       })
     ]
   }),
-  
+
   fatalError: SC.View.design({
     layout: { top: 0, right: 0, bottom: 0, left: 0 },
-    
+
     childViews: [
       SC.LabelView.design({
         layout: { centerX: 50, centerY: 50, height: 40, width: 400 },
@@ -104,5 +104,5 @@ ContactsTool.errorPage = SC.Page.create(
       })
     ]
   })
-  
+
 });

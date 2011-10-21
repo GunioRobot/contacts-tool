@@ -3,11 +3,11 @@
 // ==========================================================================
 
 /** @static
-    
+
   @extends SC.Page
   @author Mike Ball
 */
-ContactsTool.bodyPage = SC.Page.create( 
+ContactsTool.bodyPage = SC.Page.create(
 /** @scope ContactsTool.bodyPage.prototype */ {
   needsDesigner: YES,
   mainPane: SC.MainPane.design({

@@ -7,9 +7,9 @@ require('core');
 /** @class
 
   (Document Your View Here)
-  
+
   Ported from sproutcore sample app
-  
+
   @extends SC.Object
   @author    AuthorName
   @version 0.1

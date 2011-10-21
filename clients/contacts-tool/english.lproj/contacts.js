@@ -1,19 +1,19 @@
 // ==========================================================================
 // ContactsTool
 // ==========================================================================
- 
+
 require('core');
- 
+
 /** @class
- 
- 
+
+
 @extends SC.Page
 @author AuthorName
 
 */
 ContactsTool.contactsPage = SC.Page.create( // SC.Statechart,
 /** @scope ContactsTool.contactsPage.prototype */ {
-  
+
   // needsDesigner: YES,
   mainView: SC.View.design({
     layout: {left: 0, top:0, bottom:0, right: 0},
@@ -68,7 +68,7 @@ ContactsTool.contactsPage = SC.Page.create( // SC.Statechart,
         action: 'logout',
         title: 'Logout'
       })
-    ] 
+    ]
   })
- 
+
 });

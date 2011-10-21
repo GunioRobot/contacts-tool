@@ -18,7 +18,7 @@ config :all do |c|
   # page.
   c[:required] = [:sproutcore, :prototype, :'onitunes-statechart']
 
-  
+
   # Set this to false to locate your clients at absolute paths.
   # (Uncomment and define c[:resources_at] if you set this to false.)
   # c[:resources_relative] = true
@@ -69,15 +69,15 @@ config :all do |c|
   # JavaScript is only minified in production.  This only has effect if you
   # are also building composite javascript in the same mode.
   #c[:minify_javascript] = :production
-  
-  # Name the build modes that you want your JavaScript to appear as a 
+
+  # Name the build modes that you want your JavaScript to appear as a
   # composite file instead of the individual parts.  This can be an array.
   #c[:combine_javascript] = :production
-  
+
   # Name the builds modes that you want you CSS to appear as compite files
   # instead of individual parts.  This can be an array.
   #c[:combine_stylesheets] = :production
-  
+
   # Name the build modes that should include fixture data.
   #c[:include_fixtures] = :development
 
